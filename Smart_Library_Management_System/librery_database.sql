@@ -1,0 +1,11 @@
+show databases;
+create database library;
+use library;
+create table book(bid integer primary key auto_increment,bname varchar(50));
+insert into book(bname) values('rich dad poor dad');
+select * from book;
+insert into book(bname) values('the alchemist');
+insert into book(bname) values('a tale of two cities');
+insert into book(bname) values('the fault in our stars');
+insert into book(bname) values('wings of fire');
+insert into book(bname) values('the story of my experiment with truth');
